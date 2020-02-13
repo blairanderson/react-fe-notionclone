@@ -61,6 +61,13 @@ const WorkSpace = () => {
   return (
     <div>
       <h1 style={{ fontFamily: "sans-serif" }}>React Notion Clone</h1>
+      <p>
+        See{" "}
+        <a href="github.com/blairanderson/react-fe-notionclone">
+          github readme
+        </a>{" "}
+        for first planned feature set.
+      </p>
       <Box width={{ md: 600 }}>
         <Flipper flipKey={items.map(({ id }) => id).join(".")}>
           <Sortly items={items} onChange={handleChange}>
